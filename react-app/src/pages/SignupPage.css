@@ -1,0 +1,97 @@
+.signup-page {
+      font-family: 'Segoe UI', sans-serif;
+      background: #0f172a;
+      color: #e2e8f0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      margin: 0;
+      padding: 20px;
+    }
+    .signup-page .container {
+      background: #1e293b;
+      padding: 40px 30px;
+      border-radius: 16px;
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+      text-align: center;
+      width: 100%;
+      max-width: 500px;
+      animation: fadeIn 0.8s ease-in-out;
+    }
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(20px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+    .signup-page .logo {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      margin-bottom: 20px;
+    }
+    .signup-page .logo img {
+      width: 55px;
+      height: 55px;
+      border-radius: 12px;
+      margin-right: 10px;
+      box-shadow: 0 0 15px rgba(96,165,250,0.5);
+    }
+    .signup-page .logo h1 {
+      font-size: 26px;
+      font-weight: bold;
+      background: linear-gradient(to right, #60a5fa, #a78bfa);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      margin: 0;
+    }
+    .signup-page h2 { font-size: 22px; margin-bottom: 10px; }
+    .signup-page p { color: #94a3b8; margin-bottom: 20px; }
+    .signup-page .btn {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-size: 16px;
+      font-weight: 600;
+      transition: 0.3s ease;
+    }
+    .signup-page .btn:hover {
+      transform: scale(1.02);
+      box-shadow: 0 0 10px rgba(96,165,250,0.5);
+    }
+    .signup-page .google { background-color: #4285f4; color: #fff; }
+    .signup-page .linkedin { background-color: #0077b5; color: #fff; }
+    .signup-page input {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #334155;
+      border-radius: 8px;
+      background: #0f172a;
+      color: #e2e8f0;
+      font-size: 15px;
+      transition: 0.3s;
+    }
+    .signup-page input:focus {
+      border-color: #60a5fa;
+      box-shadow: 0 0 6px rgba(96,165,250,0.6);
+      outline: none;
+    }
+    .signup-page .password-wrapper { position: relative; }
+    .signup-page .toggle-password {
+      position: absolute;
+      right: 12px;
+      top: 35%;
+      cursor: pointer;
+      font-size: 14px;
+      color: #94a3b8;
+    }
+    .signup-page .yellow-btn {
+      background: linear-gradient(to right, #3b82f6, #8b5cf6);
+      color: white;
+    }
+    .signup-page a { text-decoration: none; color: #60a5fa; font-weight: 500; }
+    .signup-page .footer { margin-top: 15px; font-size: 12px; color: #94a3b8; }
+    .signup-page .trust { margin-top: 15px; font-size: 13px; color: #60a5fa; font-style: italic; }
